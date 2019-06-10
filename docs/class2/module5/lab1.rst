@@ -45,17 +45,27 @@ The following are a few examples of security policy use cases:
   desktop client's subnet, intercepts SSL, and sends to a service chain. All
   other traffic is bypassed with no service chain.
 
+  - Goto :menuselection:`SSL Orchestrator --> Configuration --> Security Policies`
+    click :guilabel:`Add`
+  
+  - Remove the "Pinners_Rule"
+  - Add the "client_network" as shown below:
+
   .. image:: ../images/image27.png
 
-- Add a rule to the above security policy that matches a specific URL category,
-  bypasses SSL and sends to a service chain. Move this rule to the top of the
-  list.
+- Add an additional rule to the new security policy that matches a specific URL
+  category, bypasses SSL and sends to a service chain. Move this rule to the
+  top of the list.
+
+  - Click :guilabel:`Add`
 
   .. image:: ../images/image28.png
 
 - Add a new rule to the above security policy that matches a specific
   destination IP and blocks this traffic. Move this rule below the URL category
   rule, but above the client network rule.
+
+  - Click :guilabel:`Add`
 
   .. image:: ../images/image29.png
 

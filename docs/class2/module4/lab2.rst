@@ -14,8 +14,6 @@ In the SSL Orchestrator dashboard view, select the :guilabel:`Topologies` tab
 
   - **Name**: provide some name (ex. ":red:`existing_app_1`")
 
-  - **Protocol**: :red:`TCP`
-
   - **IP Family**: :red:`IPv4`
 
   - **Topology**: select :red:`Existing Application`
